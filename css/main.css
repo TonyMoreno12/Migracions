@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #EFEFEF;
+  color:black;
+  font-size: 22px;;
+  background-repeat: no-repeat;
+  background-size: 1300px 900px;
+  background-image: url("../img/fondo.jpg");
+}
+
+#container{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+  grid-template-rows: calc(10.00vh - 10px) calc(10.00vh - 10px) calc(29.98vh - 10px) calc(29.98vh - 10px) calc(10.00vh - 10px) calc(10.00vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#container .cabecera{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/4;
+  grid-row: 1/1;
+}
+
+#container .celda2{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#container .celda3{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+
+#container .celda4{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 5/6;
+  grid-column: 2/3;
+}
+
+#container .celda5{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+#container .celda6{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+#container .celda7{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+
+#container .celda8{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
